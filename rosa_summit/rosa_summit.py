@@ -1,6 +1,7 @@
 from langchain_anthropic import ChatAnthropic
 from langchain_ollama import ChatOllama
-from langchain.agents import tool
+#from langchain.agents import tool
+from langchain.tools import tool
 from rosa import ROSA
 from rosa.prompts import RobotSystemPrompts
 import os
