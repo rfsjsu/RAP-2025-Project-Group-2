@@ -42,7 +42,7 @@ pip3 install langchain-anthropic~=0.3.22
 # pip3 install jpl-rosa --break-system-packages
 # pip3 install langchain --upgrade --break-system-packages
 # pip3 install langchain-community --upgrade --break-system-packages
-# pip3 install langchain-ollama --upgrade --break-system-packages
+pip3 install langchain-ollama --upgrade --break-system-packages
 # pip3 install langchain-core --upgrade --break-system-packages
 # pip3 install pydantic --upgrade --break-system-packages
 pip3 install anthropic --upgrade --break-system-packages
