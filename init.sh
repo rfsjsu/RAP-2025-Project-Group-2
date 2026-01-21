@@ -45,7 +45,7 @@ pip3 install langchain-community~=0.3.21
 pip3 install langchain-core~=0.3.52
 pip3 install langchain-openai~=0.3.14
 pip3 install langchain-ollama~=0.3.2
-pip3 install pydantic
+pip3 install pydantic~=2.12.5
 pip3 install anthropic~=0.71.0
 pip3 install langchain-anthropic~=0.3.22
 
