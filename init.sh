@@ -19,6 +19,7 @@ fi
 rm -rf /home/ros/colcon_ws/src/m-explore-ros2/map_merge/
 
 # Build the workspace
+echo "** BUILDING ROS2 $ROS_DISTRO**"
 cd /home/ros/colcon_ws
 colcon build --symlink-install
 source install/setup.bash
