@@ -29,24 +29,25 @@ cd -
 echo "** ROS2 $ROS_DISTRO initialized with $RMW_IMPLEMENTATION**"
 
 # Install Python packages compatible with jpl-rosa = 1.0.9, the most recent release
-pip3 install langchain~=0.3.23
-pip3 install langchain-community~=0.3.21
-pip3 install langchain-core~=0.3.52
-pip3 install langchain-openai~=0.3.14
-pip3 install langchain-ollama~=0.3.2
-pip3 install pydantic~=2.12.5
-pip3 install anthropic~=0.71.0
-pip3 install langchain-anthropic~=0.3.22
+pip install jpl-rosa==1.0.9
+# pip3 install langchain~=0.3.23
+# pip3 install langchain-community~=0.3.21
+# pip3 install langchain-core~=0.3.52
+# pip3 install langchain-openai~=0.3.14
+# pip3 install langchain-ollama~=0.3.2
+# pip3 install pydantic~=2.12.5
+# pip3 install anthropic~=0.71.0
+# pip3 install langchain-anthropic~=0.3.22
 
 # Install Python packages
 # pip3 install jpl-rosa --break-system-packages
 # pip3 install langchain --upgrade --break-system-packages
 # pip3 install langchain-community --upgrade --break-system-packages
-pip3 install langchain-ollama --upgrade --break-system-packages
+# pip3 install langchain-ollama --upgrade --break-system-packages
 # pip3 install langchain-core --upgrade --break-system-packages
 # pip3 install pydantic --upgrade --break-system-packages
-pip3 install anthropic --upgrade --break-system-packages
-pip3 install langchain-anthropic --upgrade --break-system-packages
+# pip3 install anthropic --upgrade --break-system-packages
+# pip3 install langchain-anthropic --upgrade --break-system-packages
 # pip3 install --upgrade langchain
 
 
