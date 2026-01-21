@@ -23,7 +23,7 @@ cd /home/ros/colcon_ws
 colcon build --symlink-install
 source install/setup.bash
 sudo apt update -y
-rosdep install --from-paths src --ignore-src -r -y
+rosdep install --from-paths src --ignore-src -r -y --os=ubuntu:24.04
 cd -
 echo "** ROS2 $ROS_DISTRO initialized with $RMW_IMPLEMENTATION**"
 
