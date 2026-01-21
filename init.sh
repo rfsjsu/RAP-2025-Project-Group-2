@@ -46,8 +46,8 @@ pip3 install langchain-core~=0.3.52
 pip3 install langchain-openai~=0.3.14
 pip3 install langchain-ollama~=0.3.2
 pip3 install pydantic
-pip3 install anthropic
-pip3 install langchain-anthropic
+pip3 install anthropic~=0.71.0
+pip3 install langchain-anthropic~=0.3.22
 
 # gazebo models
 export GZ_SIM_RESOURCE_PATH=/home/ros/rap/Gruppe2/world/models
