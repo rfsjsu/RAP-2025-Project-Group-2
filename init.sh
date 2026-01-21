@@ -30,11 +30,14 @@ echo "** ROS2 $ROS_DISTRO initialized with $RMW_IMPLEMENTATION**"
 
 # Install Python packages
 pip3 install jpl-rosa --break-system-packages
+pip3 install langchain --upgrade --break-system-packages
+pip3 install langchain-community --upgrade --break-system-packages
 pip3 install langchain-ollama --upgrade --break-system-packages
 pip3 install langchain-core --upgrade --break-system-packages
 pip3 install pydantic --upgrade --break-system-packages
 pip3 install anthropic --upgrade --break-system-packages
 pip3 install langchain-anthropic --upgrade --break-system-packages
+pip3 install --upgrade langchain
 
 # gazebo models
 export GZ_SIM_RESOURCE_PATH=/home/ros/rap/Gruppe2/world/models
