@@ -6,10 +6,6 @@ RUN sudo apt install ros-jazzy-tf2-ros
 RUN git clone https://github.com/rfsjsu/RAP-2025-Project-Group-2.git ~/rap/Gruppe2
 ADD api-key.txt /home/ros/rap/Gruppe2/api-key.txt
 
-RUN pip3 install jpl-rosa --break-system-packages
-RUN pip3 install anthropic --break-system-packages
-RUN pip3 install langchain-anthropic==0.3.22 --break-system-packages
-
 RUN bash -c "source ~/rap/Gruppe2/init.sh"
 ENV GZ_SIM_RESOURCE_PATH=/home/ros/rap/Gruppe2/world/models
 
