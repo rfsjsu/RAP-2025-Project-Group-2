@@ -314,7 +314,8 @@ def main():
     user_name = os.getenv("USER")
 
     try:
-        if user_name == "ros":
+        #if user_name == "ros":
+        if user_name != "ros": # RSF DEBUG for using claude
             print("Using remote Ollama instance")
             llm = ChatOllama(
                 model="hhao/qwen2.5-coder-tools:latest",  # "gemma3:12b",  # or your preferred model
