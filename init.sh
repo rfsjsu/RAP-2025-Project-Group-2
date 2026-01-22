@@ -19,7 +19,6 @@ fi
 rm -rf /home/ros/colcon_ws/src/m-explore-ros2/map_merge/
 
 # Build the workspace
-echo "** BUILDING ROS2 $ROS_DISTRO**"
 cd /home/ros/colcon_ws
 colcon build --symlink-install
 source install/setup.bash
@@ -27,6 +26,10 @@ sudo apt update -y
 rosdep install --from-paths src --ignore-src -r -y --os=ubuntu:24.04
 cd -
 echo "** ROS2 $ROS_DISTRO initialized with $RMW_IMPLEMENTATION**"
+
+pip3 install jpl-rosa --break-system-packages
+pip3 install anthropic --break-system-packages
+pip3 install langchain-anthropic==0.3.22 --break-system-packages
 
 # Install Python packages compatible with jpl-rosa = 1.0.9, the most recent release
 # pip3 install jpl-rosa>=1.0 --break-system-packages
