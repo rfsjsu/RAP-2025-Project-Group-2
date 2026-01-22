@@ -36,8 +36,8 @@ echo "** ROS2 $ROS_DISTRO initialized with $RMW_IMPLEMENTATION**"
 # pip3 install langchain-openai~=0.3.14 --break-system-packages
 # pip3 install langchain-ollama --break-system-packages
 # pip3 install pydantic~=2.12.5 --break-system-packages
-pip3 install anthropic --break-system-packages
-pip3 install langchain-anthropic --break-system-packages
+# pip3 install anthropic --break-system-packages
+# pip3 install langchain-anthropic --break-system-packages
 
 # Install Python packages
 # pip3 install jpl-rosa --break-system-packages
