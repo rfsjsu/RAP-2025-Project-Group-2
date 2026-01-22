@@ -31,29 +31,5 @@ pip3 install jpl-rosa --break-system-packages
 pip3 install anthropic --break-system-packages
 pip3 install langchain-anthropic==0.3.22 --break-system-packages
 
-# Install Python packages compatible with jpl-rosa = 1.0.9, the most recent release
-# pip3 install jpl-rosa>=1.0 --break-system-packages
-# pip3 install langchain~=0.3.23 --break-system-packages
-# pip3 install langchain-community~=0.3.21 --break-system-packages
-# pip3 install langchain-core~=0.3.52 --break-system-packages
-# pip3 install langchain-openai~=0.3.14 --break-system-packages
-# pip3 install langchain-ollama --break-system-packages
-# pip3 install pydantic~=2.12.5 --break-system-packages
-# pip3 install anthropic --break-system-packages
-# pip3 install langchain-anthropic --break-system-packages
-
-# Install Python packages
-# pip3 install jpl-rosa --break-system-packages
-# pip3 install langchain --upgrade --break-system-packages
-# pip3 install langchain-community --upgrade --break-system-packages
-# pip3 install langchain-ollama --upgrade --break-system-packages
-# pip3 install langchain-core --upgrade --break-system-packages
-# pip3 install pydantic --upgrade --break-system-packages
-# pip3 install anthropic --upgrade --break-system-packages
-# pip3 install langchain-anthropic --upgrade --break-system-packages
-# pip3 install --upgrade langchain
-
-
-
 # gazebo models
 export GZ_SIM_RESOURCE_PATH=/home/ros/rap/Gruppe2/world/models
